@@ -22,7 +22,7 @@ from feishu_notify import send_feishu_text
 warnings.filterwarnings("ignore", category=InsecureRequestWarning)
 urllib3.disable_warnings(InsecureRequestWarning)
 
-BASE_URL = "https://edr.chinawayltd.com"
+BASE_URL = "https://edr.xxx.com"
 
 
 class LoginError(Exception):
